@@ -99,6 +99,5 @@ int main(int argc, char** argv) {
         end_time = MPI_Wtime();
         printf("%f ", end_time - start_time);
     }
-    MPI_Barrier(MPI_COMM_WORLD);
     MPI_Finalize();
 }
